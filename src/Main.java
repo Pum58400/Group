@@ -7,6 +7,7 @@ public class Main {
         frame.setContentPane(RegisterPanel.getMainPanel());
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(800,650);
         frame.setVisible(true);
 //
     }
